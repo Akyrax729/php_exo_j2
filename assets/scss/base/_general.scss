@@ -1,0 +1,6 @@
+@use "../abstract/variable" as var;
+
+body {
+    background-color: var.$primarycolor;
+    color: white;
+}
