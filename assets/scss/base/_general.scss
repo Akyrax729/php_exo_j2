@@ -3,4 +3,53 @@
 body {
     background-color: var.$primarycolor;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h2 {
+        margin-top: 2rem;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 0;
+
+        input {
+            margin-bottom: 1rem;
+        }
+        button {
+            margin: 1rem 0;
+        }
+    } 
+
+    #ex7 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+
+        input {
+            margin: 0;
+        }
+
+        p {
+            margin: 0 1rem;
+        }
+    }
+
+    #ex8 {
+        div {
+          display: flex;
+          justify-content: space-around; 
+          align-items: center; 
+          flex-direction: row;
+          margin: 5px 0;
+        }
+        input {
+            margin: 0;
+        }
+    }
 }
